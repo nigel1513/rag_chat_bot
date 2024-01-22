@@ -13,3 +13,4 @@ streamlit_on_Hover_tabs==1.0.1
 tiktoken==0.5.2
 pypdf==3.17.4
 docx2txt==0.8
+sentence-transformers==2.2.2
