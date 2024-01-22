@@ -11,3 +11,5 @@ streamlit_chat==0.1.1
 streamlit_lottie==0.0.5
 streamlit_on_Hover_tabs==1.0.1
 tiktoken==0.5.2
+pypdf==3.17.4
+docx2txt==0.8
