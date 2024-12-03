@@ -14,6 +14,6 @@ pypdf==3.17.4
 docx2txt==0.8
 sentence-transformers==2.2.2
 faiss-cpu==1.7.4
-openai==1.7.0
+openai==0.27.8
 chromadb==0.4.22
 huggingface-hub==0.15.1  # 과거의 안정적인 버전으로 변경
