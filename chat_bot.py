@@ -48,7 +48,7 @@ def chat_bot():
         st.session_state.processComplete = True
 
     if "messages" not in st.session_state:
-    st.session_state.messages = [{"role": "assistant", "content": "안녕하세요! 문서 관련 궁금한 사항에 대해 문의해주세요!"}]
+        st.session_state.messages = [{"role": "assistant", "content": "안녕하세요! 문서 관련 궁금한 사항에 대해 문의해주세요!"}]
 
 
     for message in st.session_state.messages:
