@@ -47,9 +47,9 @@ def chat_bot():
 
         st.session_state.processComplete = True
 
-    if 'messages' not in st.session_state:
-        st.session_state['messages'] = [{"role": "assistant", 
-                                        "content": "안녕하세요! 문서관련 궁금하신 사항에 대해 문의해주세요!"}]
+    if "messages" not in st.session_state:
+    st.session_state.messages = [{"role": "assistant", "content": "안녕하세요! 문서 관련 궁금한 사항에 대해 문의해주세요!"}]
+
 
     for message in st.session_state.messages:
         with st.chat_message(message["role"]):
@@ -70,6 +70,7 @@ def chat_bot():
             with st.spinner("Thinking..."):
                 result = chain({"question": query})
                 with get_openai_callback() as cb:
+                    result = chain({"question": query})
                     st.session_state.chat_history = result['chat_history']
                 response = result['answer']
                 source_documents = result['source_documents']
