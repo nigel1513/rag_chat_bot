@@ -4,7 +4,6 @@ numpy==1.26.3
 pandas==2.2.0
 plotly==5.14.1
 PyYAML==6.0.1
-PyYAML==6.0.1
 streamlit==1.29.0
 streamlit_authenticator==0.2.3
 streamlit_chat==0.1.1
@@ -17,4 +16,4 @@ sentence-transformers==2.2.2
 faiss-cpu==1.7.4
 openai==1.7.0
 chromadb==0.4.22
-sentence-transformers
+huggingface-hub==0.15.1  # 과거의 안정적인 버전으로 변경
